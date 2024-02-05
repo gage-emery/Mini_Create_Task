@@ -20,4 +20,6 @@ def questionsForAnimal(goAgain):
         
         questionAns = ""
         questionAns = input("Do you like exotic pets? (y/n)")
+
+print("Do you have a very busy schedule? Answer y or n.")
         
