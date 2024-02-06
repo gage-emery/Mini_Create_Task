@@ -21,25 +21,25 @@ def questionsForAnimal(goAgain,score):
         questionAns = ""
         questionAns = input("Do you like exotic pets? (y/n)")
 
-        print("Do you have a very busy schedule? Answer y or n.")
+        questionAns = input("Do you have a very busy schedule? Answer y or n.")
         
-        print("Do you like exotic pets? Answer y ot n")
-        if answer == "y":
+        questionAns = input("Do you like exotic pets? Answer y ot n")
+        if questionAns == "y":
             scoreAdder(score,"weak")
 
-        if answer == "n":
+        if questionAns == "n":
             scoreAdder(score,"med")
 
-        print("if you would like a high maitnence pet answer y, if you would like a low maitnence pet answer n.")
-        if answer == "y":
+        questionAns = input("if you would like a high maitnence pet answer y, if you would like a low maitnence pet answer n.")
+        if questionAns == "y":
             scoreAdder(score,"weak")
 
-        if answer == "n":
+        if questionAns == "n":
             scoreAdder(score,"str")
 
-        print("Do you live in a warmer climate? answer y. Do you live in a colder climate? answer n")
-        if answer == "y":
+        questionAns = input("Do you live in a warmer climate? answer y. Do you live in a colder climate? answer n")
+        if questionAns == "y":
             scoreAdder(score,"weak")
 
-        if answer == "n": 
+        if questionAns == "n": 
             scoreAdder(score,"str")
